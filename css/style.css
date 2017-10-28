@@ -1,0 +1,282 @@
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	height: 100%;
+	background-image: url("../images/cloth.png");
+	z-index: -1;
+}
+
+
+
+
+body {
+	width: 960px;
+	padding: 0;
+	margin: 0;
+	margin:auto; 
+	z-index: 0;
+	/*position: fixed;*/
+	/*width: 960px;*/
+
+}
+
+header {
+	background-color: #ffffff;
+	overflow: auto;
+	width: auto;
+	border-bottom: 2px solid;
+	border-color: #cccccc;
+	/*width: 960px;*/
+}
+
+h1 {
+	float: left;
+	background-color: #4aaaa5;
+	margin-left: 35px;
+	padding: 20px 30px 20px 30px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+nav {
+	float: right;
+	margin-right: 35px;
+	max-height: inherit;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.book {
+	list-style: none;
+	text-align: center;
+	/*overflow: auto;*/
+	float: left;
+	overflow: hidden;
+}
+
+
+.book li {
+	float: left;
+	display: inline;
+	color: #777777;
+	background-color: transparent;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 28px 3px 28px 3px;
+	text-decoration: none;
+}
+
+.book a {
+	color: #777777;
+	text-decoration: none;
+}
+
+content {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+section {
+	clear: both;
+	display: inline-block;
+	float: left;
+	width: 650px;
+	margin:35px 15px 45px 30px;
+	background-color: #ffffff;
+	border: 1px solid;
+	border-color: #dddddd;
+	padding-left: 25px;
+	padding-bottom: 35px;
+	padding-right: 35px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 26px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	padding: 30px 15px 15px 0px;
+	margin: 0px 25px 30px 0px;
+	border-bottom: 1px solid;
+	border-color: #dddddd;
+}
+
+.profile-pic {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin: 0px 15px 10px 0px;
+}
+
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	color:#777777;
+	padding-bottom: 45px;
+}
+
+aside {
+	display: inline;
+	float: right;
+	background-color: #ffffff;
+	padding: 25px;
+	margin: 35px 35px 0px 0px;
+	border: 1px solid;
+	border-color: #dddddd;
+}
+
+h3 {
+	clear: both;
+	color: #4aaaa5;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px solid;
+	border-color: #dddddd;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+.media {
+	position: relative;
+	text-align: center;
+}
+
+.logos {
+	width: 45px;
+	height: auto;
+	overflow: auto;
+	margin: 15px 3px 2px 3px;
+	display: inline-block;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	/*overflow: auto;*/
+	margin-top: -3px;
+	border-top: 10px solid;
+	border-color: #4aaaa5;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 10px;
+	color: white;
+	padding: 20px 0px 20px 0px;
+}
+
+
+/*Formatting for contact.html*/
+
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+input {
+	margin-bottom: 10px;
+}
+.submit {
+	background-color: #4aaaa5;
+	margin-top: 15px;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.submit:hover {
+	
+}
+
+
+
+
+
+/*Formatting for portfolio.html*/
+
+#game-center {
+	display: block;
+	padding: 5px;
+	overflow: auto;
+}
+
+
+.gametiles-left {
+	float: left;
+}
+
+.gametiles-right {
+	float: right;
+}
+
+
+
+.gamebox-left {
+	float: left;
+	width: 265px;
+	height: 240px;
+	z-index: 1;
+	margin-top: 58px;
+}
+
+.gamebox-right {
+	float: right;
+	width: 265px;
+	height: 240px;
+	z-index: 1;
+	margin-top: 58px;
+}
+
+.gamebanner-left {
+	margin-top: -60px;
+	padding-top: 13px;
+	font-size: 26px;
+	color: white;
+	float: right;
+	width: 265px;
+	height: 54px;
+	text-align: center;
+	background-color: transparent;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+}
+
+.gamebanner-right {
+	margin-top: -60px;
+	padding-top: 13px;
+	font-size: 24px;
+	color: white;
+	float: right;
+	width: 265px;
+	height: 54px;
+	text-align: center;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+}
+
